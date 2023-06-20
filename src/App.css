@@ -1,0 +1,23 @@
+body{
+    background-color: #141414;
+}
+.h1{
+    color: white;
+    padding: 20px;
+    
+}
+.nomvies{
+    text-align: center;
+    font-size: 24px;
+    color: #999;
+    margin: 50px;   
+}
+span{
+    color: red;
+}
+.dano{
+    color: white;
+    display: flex;
+    
+}
+
