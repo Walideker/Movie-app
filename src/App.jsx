@@ -21,8 +21,8 @@ function App() {
     }
   }
   useEffect(() => {
-    MoviesRequest(search)
-  }, [search])
+    MoviesRequest(search);
+  }, []);
   const daempty = () => {
     if (movies.length === 0) {
       return <h1 className='nomvies'>No movies to show</h1>;
